@@ -1,6 +1,5 @@
 /*
 Marlon Grandy
-CS231 
 2/23/2022
 Sudoku Class...
 Sudoku.java
