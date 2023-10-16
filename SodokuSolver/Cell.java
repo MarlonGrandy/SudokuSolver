@@ -1,7 +1,6 @@
 
 /*
 Marlon Grandy
-CS231 
 2/21/2022
 Cell class contains methods to manipulate and retrive information about a cell.
 Cell.java
