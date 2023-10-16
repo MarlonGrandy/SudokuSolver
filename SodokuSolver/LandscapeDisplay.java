@@ -1,5 +1,6 @@
 /*
-Creates a window using the JFrame class. Creates a drawable area in the window using the JPanel class.
+* Marlon Grandy
+* Creates a window using the JFrame class. Creates a drawable area in the window using the JPanel class.
  */
 
 import java.awt.BorderLayout;
