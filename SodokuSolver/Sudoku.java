@@ -1,7 +1,7 @@
 /*
 Marlon Grandy
 2/23/2022
-Primary Sudoku class to run all Sodoku operations...
+Primary Sudoku class to run all sudoku operations...
 Sudoku.java
 */
 
@@ -11,16 +11,16 @@ import java.util.Stack;
 
 import java.awt.event.*;
 
-public class Sudoku2 {// declares the sodoku class
+public class Sudoku {// declares the sudoku class
     Board newBoard;
     LandscapeDisplay display;
 
-    public Sudoku2() { // constructor initializing a new board
+    public Sudoku() { // constructor initializing a new board
         newBoard = new Board();
         display = new LandscapeDisplay(newBoard, 30);
     }
 
-    public Sudoku2(int N) { // constructor initializing a new board with number of populated starting values
+    public Sudoku(int N) { // constructor initializing a new board with number of populated starting values
                             // parameter
         Random ran = new Random();
         newBoard = new Board();
@@ -122,8 +122,8 @@ public class Sudoku2 {// declares the sodoku class
 
     }
 
-    public static void main(String[] args) { // main method to create and run sodoku solver
-        Sudoku2 s = new Sudoku2();
+    public static void main(String[] args) { // main method to create and run sudoku solver
+        Sudoku s = new Sudoku();
 
         double startTime = System.nanoTime(); //recrods start time 
         System.out.println(s.newBoard);
@@ -137,7 +137,7 @@ public class Sudoku2 {// declares the sodoku class
             random locked cells*/ 
             public void actionPerformed(ActionEvent e) {
                 s.newBoard.reset(); //calls reset method
-                //this block of code is the same as Sudoku2 paramatarized constructor
+                //this block of code is the same as Sudoku paramatarized constructor
                 Random ran = new Random();
                 int i = 0;
                 while (i <= 10) { 
