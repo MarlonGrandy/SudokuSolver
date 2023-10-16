@@ -1,7 +1,7 @@
 /*
 Marlon Grandy
 2/23/2022
-Sudoku Class...
+Primary Sudoku class to run all Sodoku operations...
 Sudoku.java
 */
 
