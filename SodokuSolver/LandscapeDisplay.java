@@ -20,10 +20,7 @@ import javax.swing.JPanel;
 
 /**
  * Displays a Board graphically using Swing. In this version, we use a Board
- * class rather than a Landscape) and we do not make the assumption that
- * we are displaying a grid.
- * 
- * @author bseastwo
+ * class (rather than a Landscape).
  */
 public class LandscapeDisplay {
     JButton b;
@@ -35,9 +32,6 @@ public class LandscapeDisplay {
 
     /**
      * Initializes a display window for a Landscape.
-     * 
-     * @param scape the Landscape to display
-     * @param scale controls the relative size of the display
      */
     public LandscapeDisplay(Board scape, int scale) {
         // setup the window
@@ -78,7 +72,6 @@ public class LandscapeDisplay {
      * filename should have an extension supported by javax.imageio, e.g.
      * "png" or "jpg".
      *
-     * @param filename the name of the file to save
      */
     public void saveImage(String filename) {
         // get the file extension from the filename
@@ -109,9 +102,6 @@ public class LandscapeDisplay {
     private class LandscapePanel extends JPanel {
         /**
          * Creates the panel.
-         * 
-         * @param width  the width of the panel in pixels
-         * @param height the height of the panel in pixels
          */
         public LandscapePanel(int width, int height) {
             super();
@@ -123,8 +113,6 @@ public class LandscapeDisplay {
          * Method overridden from JComponent that is responsible for
          * drawing components on the screen. The supplied Graphics
          * object is used to draw.
-         * 
-         * @param g the Graphics object used for drawing
          */
         public void paintComponent(Graphics g) {
             super.paintComponent(g);
