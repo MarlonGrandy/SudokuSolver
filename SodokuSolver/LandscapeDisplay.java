@@ -1,13 +1,5 @@
 /*
-	Originally written by Bruce A. Maxwell a long time ago.
-	Updated by Brian Eastwood and Stephanie Taylor more recently
-
-	Creates a window using the JFrame class.
-
-	Creates a drawable area in the window using the JPanel class.
-
-	The JPanel calls the Landscape's draw method to fill in content, so the
-	Landscape class needs a draw method.
+Creates a window using the JFrame class. Creates a drawable area in the window using the JPanel class.
  */
 
 import java.awt.BorderLayout;
